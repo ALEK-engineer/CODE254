@@ -13,12 +13,11 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int pizzaType = 0;
-  List<String> prices =[
+  List<String> prices = [
     'vegetarian pizza =KSH 500'
-    'Silicon Pizza = KSH 800'
-    'St Louis Pizza= KSH 1000'
-
-  ];// Corrected the variable name
+        'Silicon Pizza = KSH 800'
+        'St Louis Pizza= KSH 1000'
+  ]; // Corrected the variable name
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,6 @@ class _HomeState extends State<Home> {
         title: Text('NYALI Pizza'),
         centerTitle: true,
         backgroundColor: const Color.fromARGB(31, 201, 68, 31),
-       
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -42,7 +40,7 @@ class _HomeState extends State<Home> {
           ),
           Divider(
             height: 60.0,
-            color: Colors.black,
+            color: Colors.grey,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -81,7 +79,8 @@ class _HomeState extends State<Home> {
             style: TextButton.styleFrom(
               backgroundColor: const Color.fromARGB(255, 35, 205, 41),
             ),
-            child: Text('Click here to order', style: TextStyle(color: Colors.white)),
+            child: Text('Click here to order',
+                style: TextStyle(color: Colors.white)),
           ),
           Container(
             color: Colors.cyan,
