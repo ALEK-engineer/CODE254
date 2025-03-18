@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
           ),
           Divider(
             height: 60.0,
-            color: Colors.grey,
+            color: Colors.black,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
