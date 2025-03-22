@@ -1,6 +1,8 @@
 # myweb
 
-A new Flutter project.
+This is a flutter pizza order app showing three flavors of pizza. The app has add to cart feature.
+
+
 
 ## Getting Started
 
