@@ -2,7 +2,7 @@
 
 This is a flutter pizza order app showing three flavors of pizza. The app has add to cart feature.
 
-
+![image alt](https://github.com/ALEK-engineer/CODE254/blob/426e320150a499d25b4dda92998f4747e5273bd4/Screenshot%202025-03-22%20115439.png)
 
 ## Getting Started
 
